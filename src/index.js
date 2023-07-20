@@ -1,10 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "@refinitiv-ui/elements/select";
+import "@refinitiv-ui/elements/chart";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "@refinitiv-ui/elements/panel";
+
+import "@refinitiv-ui/halo-theme/dark/imports/native-elements";
+import "@refinitiv-ui/elements/select/themes/halo/dark";
+import "@refinitiv-ui/elements/panel/themes/halo/dark";
+
+import "@refinitiv-ui/elements/button";
+import "@refinitiv-ui/elements/panel";
+// import styles for typography, body and other native inbuilt elements.
+import "@refinitiv-ui/halo-theme/dark/imports/native-elements";
+// import element themes
+import "@refinitiv-ui/elements/button/themes/halo/dark";
+import "@refinitiv-ui/elements/panel/themes/halo/dark";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
